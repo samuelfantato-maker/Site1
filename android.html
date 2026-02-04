@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como surgiu o Android</title>
+
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="stilo/style.css">
+</head>
+
+<body>
+ <h1>Titulo</h1>
+
+  <header>
+  <p><strong>Lorem</strong> <a href="formulario.html" target="_blank" >ipsum</a> dolor sit amet consectetur adipisicing elit. Labore eum magni cupiditate! Eligendi, nisi. Amet nobis possimus at, natus numquam consequuntur magni incidunt, impedit nostrum quos, laboriosam eveniet autem eum?</p>
+  </header>
+
+  <nav id="top">
+        <a href="#">Home</a>
+        <a href="#">Noticias</a>
+        <a href="#">Curiosidades</a>
+        <a href="#">Trabalhe</a>
+        <a href="#">fale Conosco</a>
+  </nav>
+
+ <div class="menu">
+    <button class="menu-btn">Menu</button>
+      <nav class="menu-links">
+        <a href="#">pagina1</a><br>
+        <a href="#">pagina2</a><br>
+        <a href="#">pagina3</a><br>
+      </nav>
+ </div>
+ 
+  <div class="produtos"></div>
+    <button class="produtos-btn" onclick="toggleProdutos()">Produtos</button>
+    <nav class="produtos-links" id="produtosLinks">
+        <a href="#">pagina4</a><br>
+        <a href="#">pagina5</a><br>
+        <a href="#">pagina6</a><br>
+    </nav>
+ </div>
+<script>
+    function toggleProdutos() {
+      const produtos = document.getElementById("produtosLinks");
+      produtos.style.display = (produtos.style.display === "block") ? "none" : "block";
+    }
+  </script>
+
+ <button>Carrinho 
+    <nav id="carrinho"> 
+        <a href="#">pagina7</a><br>
+        <a href="#">pagina8</a><br>
+        <a href="#">pagina9</a><br>
+    </nav>
+ </button>
+  
+  <main>
+        <h2>Subtitulo</h2>
+        <article>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In distinctio, molestias ducimus ipsa quam, possimus velit sapiente inventore magnam tempora veniam, nesciunt nulla modi. Consectetur sint quasi blanditiis vel. Ea.</p>
+        </article>
+    </main>
+
+    <footer>Site criado por Samuel Fantato M.</footer>
+    <script src="stilo/script.js"></script>
+</body>
+</html>

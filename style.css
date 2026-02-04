@@ -1,0 +1,114 @@
+@charset 'UTF-8';
+
+/* palheta colors 
+    fontes , criar variavel root */
+
+    :root {
+        --cor1: red;
+        --cor2: green;
+        --cor3: blue;
+
+        --fontpadrao: Arial, Verdana, Helvetica, sans-serif;
+        --fontdestaque: Verdana, italic;
+    }
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+.menu-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.menu-links {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  z-index: 1;
+}
+/* Estilo dos links */
+.menu-links a {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-links a:hover {
+  background-color: #ddd;
+}
+
+/* Mostrar links quando passa o mouse */
+.menu:hover .menu-links {
+  display: block;
+}
+
+  h1{
+    background-color: var(--cor2);
+    font-family: var(--fontpadrao);
+    padding: 10px;
+    text-align: center;
+ }
+
+ nav { background-color: green; padding: 5px; 
+ }
+ nav > a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+    margin-left: 5px;
+ }
+ nav > a:hover {
+    color: black;
+    background-color: rgba(88, 133, 88, 0.72);
+    font-weight: bolder;
+ }
+ 
+ button:hover > #carrinho {
+        display: block;
+ }
+
+.produtos {
+    position: relative;
+    display: inline-block;
+}
+.produtos-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.produtos-links {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  z-index: 1;
+}
+/* Estilo dos links */
+.produtos-links a {
+  color: black;
+  padding: 10px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.produtos-links a:hover {
+  background-color: #ddd;
+
+}
+ 
